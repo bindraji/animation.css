@@ -1,0 +1,99 @@
+body{
+    margin:0;
+}
+.div1
+{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(purple,aqua);
+    border-radius: 40%;
+    position: absolute;
+    animation-name: batch2;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes batch2 {
+    0%{
+        left:0;
+        top:0;
+    }
+    10%{
+        left: 120px;
+        top:0;
+        background-image: linear-gradient(blue,deeppink);
+    }
+    15%{
+        left: 100px;;
+        top: 100px;
+        background-image: linear-gradient(yellow,green);
+    }
+    25%{
+        left:200px;
+        top: 100px;
+        background-image: linear-gradient(grey,red);
+    }
+    50%{
+        left:200px;
+        top:200px;
+        background-image: linear-gradient(blue,lightgreen);
+    }
+    65%{
+        left: 300px;
+        top: 200px;
+        background-image: linear-gradient(aqua,black);
+    }
+    75%{
+        left:300px;
+        top: 300px;
+        background-image: linear-gradient(blue,white);
+    }
+}
+.div2
+{
+    height: 100px;
+    width: 250px;
+    background-image: linear-gradient(purple,aqua);
+    border-radius: 20%;
+    position:relative;
+    animation-name: batch1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes batch1 {
+    0%{
+        left:0;
+        top:0;
+    }
+    10%{
+        left: 120px;
+        top:0;
+        background-image: linear-gradient(blue,deeppink);
+    }
+    15%{
+        left: 100px;;
+        top: 100px;
+        background-image: linear-gradient(yellow,green);
+    }
+    25%{
+        left:200px;
+        top: 100px;
+        background-image: linear-gradient(grey,red);
+    }
+    50%{
+        left:200px;
+        top:200px;
+        background-image: linear-gradient(blue,lightgreen);
+    }
+    65%{
+        left: 300px;
+        top: 200px;
+        background-image: linear-gradient(aqua,black);
+    }
+    75%{
+        left:300px;
+        top: 300px;
+        background-image: linear-gradient(blue,white);
+    }
+}
